@@ -321,7 +321,7 @@ def disp_ZZ(L, C, L_side=None, C_side=None, Cc=5, EC1=0.2, EJ1=20, EC2=0.2, EJ2=
 
 
 if __name__ == "__main__":
-    L, C, L_side, C_side, Cc, EC1, EJ1, EC2, EJ2 = 2, 114, 47.98418086298829, 5.0, 6.495487626697703, 0.1426, 10,0.1426, 40
+    L, C, L_side, C_side, Cc, EC1, EJ1, EC2, EJ2 = 2, 114, 47.98418086298829, 5.0, 6.495487626697703, 0.1426, 20,0.1426, 20
 
     fq1, fq2, fc1, fc2, ZZ, XX, disp_10_3, disp_01_3, disp_10_4, disp_01_4 = disp_ZZ(L, C, L_side, C_side, Cc, EC1, EJ1, EC2, EJ2)
     print(f"ZZ: {ZZ*1000:.6g}")
